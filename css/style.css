@@ -1,0 +1,71 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+header{
+    height: 50px;
+    background-color: #222222;
+}
+.upper-buttons>button{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.4rem;
+    border-radius: 8px 8px;
+    margin-right: 5px;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+.margin-auto{
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+    background-color: black;
+    padding-top: 80px;
+}
+.container{
+    overflow-y: scroll;
+    border: 1 px solid black;
+    background: red;
+    height: 100vh;
+    max-width: 1200px;
+}
+.box-image{
+    position: relative;
+    width: calc(100% / 7);
+    height: 100px;
+    background-image: url(https://fastly.picsum.photos/id/84/1280/848.jpg?hmac=YFRYDI4UsfbeTzI8ZakNOR98wVU7a-9a2tGF542539s);
+    background-size: cover;
+    background-position: center;
+    /* margin-right: 5px; */
+}
+.mute-state{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.25rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0.8rem;
+}
+footer{
+    background-color: #272526;
+    height: 100px;
+    padding-top: 50px;
+}
